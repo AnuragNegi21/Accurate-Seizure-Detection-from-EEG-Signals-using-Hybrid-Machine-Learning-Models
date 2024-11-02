@@ -6,12 +6,12 @@ Dataset
 The Bonn EEG dataset, collected by the University of Bonn's Department of Epileptology, serves as the primary dataset for this project. It’s widely used in seizure detection research for its rich and structured data on brain activity.
 
 Dataset Structure
-Samples: The dataset contains five subsets (A–E), each with 100 single-channel EEG recordings, sampled at 173.6 Hz over 23.6 seconds.
+#Samples: The dataset contains five subsets (A–E), each with 100 single-channel EEG recordings, sampled at 173.6 Hz over 23.6 seconds.
 Classes:
-Set A & B: Healthy individuals (A - eyes open, B - eyes closed)
-Set C & D: Seizure-free intervals in epileptic patients
-Set E: Seizure activity in epileptic patients
-Labeling: Enables multi-class classification, supporting the analysis across ictal, pre-ictal, and interictal states.
+#Set A & B: Healthy individuals (A - eyes open, B - eyes closed)
+#Set C & D: Seizure-free intervals in epileptic patients
+#Set E: Seizure activity in epileptic patients
+#Labeling: Enables multi-class classification, supporting the analysis across ictal, pre-ictal, and interictal states.
 Methodology
 This project involves several key steps, from data preprocessing to model training and evaluation.
 
@@ -46,14 +46,14 @@ Below are the performance metrics (Accuracy, Precision, Recall, F1 Score) for ea
 
 Discussion
 Best Performing Models
-Hybrid CNN-LSTM with Attention:
+#Hybrid CNN-LSTM with Attention:
 Achieved a balanced performance with high generalization ability, making it the top performer in the seizure detection task.
-Support Vector Machine (SVM) and Artificial Neural Network (ANN):
+#Support Vector Machine (SVM) and Artificial Neural Network (ANN):
 Showed excellent results among traditional models, demonstrating their effectiveness in this context.
-Insights
+#Insights
 The LSTM's ability to capture temporal dependencies, combined with the attention mechanism, enabled the hybrid model to focus on key EEG segments. This capability significantly enhanced seizure detection performance.
-Challenges
-Logistic Regression:
+#Challenges
+#Logistic Regression:
 Struggled with non-linear data, highlighting the need for more sophisticated models in this domain.
 Conclusion
 The combination of CNN, LSTM, and attention mechanism has proven effective in detecting seizure events from EEG signals, with an emphasis on the importance of temporal dependencies for accurate classification. This approach holds potential for real-world applications in epilepsy care by enabling real-time seizure prediction and intervention.
