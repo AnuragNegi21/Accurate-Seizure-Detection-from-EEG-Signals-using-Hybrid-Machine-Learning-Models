@@ -45,9 +45,16 @@ Below are the performance metrics (Accuracy, Precision, Recall, F1 Score) for ea
 | **Hybrid CNN-LSTM with Attention** | ~90%  | Balanced across metrics | High interpretability | High temporal accuracy |
 
 Discussion
-Best Performing Models: The Hybrid CNN-LSTM with Attention model achieved a balanced performance with high generalization ability, while SVM and ANN showed excellent results among traditional models.
-Insights: The LSTM's ability to capture temporal dependencies, combined with the attention mechanism, allowed the hybrid model to focus on key EEG segments, enhancing seizure detection.
-Challenges: Logistic regression struggled with non-linear data, demonstrating the need for more sophisticated models in this context.
+Best Performing Models
+Hybrid CNN-LSTM with Attention:
+Achieved a balanced performance with high generalization ability, making it the top performer in the seizure detection task.
+Support Vector Machine (SVM) and Artificial Neural Network (ANN):
+Showed excellent results among traditional models, demonstrating their effectiveness in this context.
+Insights
+The LSTM's ability to capture temporal dependencies, combined with the attention mechanism, enabled the hybrid model to focus on key EEG segments. This capability significantly enhanced seizure detection performance.
+Challenges
+Logistic Regression:
+Struggled with non-linear data, highlighting the need for more sophisticated models in this domain.
 Conclusion
 The combination of CNN, LSTM, and attention mechanism has proven effective in detecting seizure events from EEG signals, with an emphasis on the importance of temporal dependencies for accurate classification. This approach holds potential for real-world applications in epilepsy care by enabling real-time seizure prediction and intervention.
 
